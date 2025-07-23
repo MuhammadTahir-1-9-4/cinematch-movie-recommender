@@ -37,7 +37,7 @@ This project is a complete end-to-end data science application, from data proces
   - Genres
   - Keywords
   - Top 3 Cast Members
-  - Director (weighted 3x to capture the "auteur signal")
+  - Director
 - **Modeling:**
   - **`TfidfVectorizer`**: The "feature soup" for all 46,000+ movies was transformed into a numerical TF-IDF matrix.
   - **`NearestNeighbors`**: A K-Nearest Neighbors model was trained on this matrix using `cosine similarity` to find the movies with the most similar vector "fingerprints."
